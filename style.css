@@ -213,6 +213,22 @@ p {
   margin-left: 150px;
 }
 
+.action-zero {
+    font-size: 10px;
+    color: rgb(33, 89, 144);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 69, 68);
+    background: rgb(255, 169, 168);
+    border-radius: 50%;
+    position: absolute;
+    top: -150px;
+    left: 410px;
+}
+
 .action-one {
     font-size: 10px;
     color: rgb(33, 89, 144);
@@ -225,9 +241,8 @@ p {
     background: rgb(165, 228, 171);
     border-radius: 50%;
     position: absolute;
- top: -170px;
+    top: -170px;
     left: 457px;
-
 }
 
 .action-two {
@@ -238,7 +253,7 @@ p {
     justify-content: center;
     border-width: 4px;
     border-style: solid;
-    border-color: rgb(148, 114, 142);
+    border-color: rgb(216, 110, 197);
     background: rgb(255, 213, 248);
     border-radius: 50%;
     position: absolute;
@@ -296,6 +311,7 @@ p {
     position: absolute;
     top: -160px;
     left: 429px;
+    box-shadow: 1px 1px 8px #656464;
 }
 
 .state {
