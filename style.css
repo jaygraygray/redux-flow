@@ -10,12 +10,22 @@ h2 {
 
 p {
   font-family: 'Raleway';
+  line-height: 32px;
+  margin-bottom: 34px;
 }
 
 .title {
-    width: 100%;
+    width: 50%;
     text-align: center;
     margin: auto;
+   border-width: 0 0 21px 0;
+    border-style: solid;
+    border-color: #e4e4e4;
+}
+
+.title h1 {
+    font-size: 44px;
+    margin-bottom: -16px;
 }
 
 .container {
@@ -33,6 +43,7 @@ p {
     text-align: center;
     height: 500px;
 }
+
 
 .user {
     text-align: center;
@@ -215,14 +226,14 @@ p {
 .state {
     border-width: 0 0 8px 0;
     border-style: solid;
-    width: 80px;
-    text-align: center;
     padding-bottom: 5px;
     border-color: yellow;
     position: absolute;
     top: 69px;
     right: 46px;
     opacity: .7;
+    width: 80px;
+    text-align: center;
 }
 
 .state h2 {
