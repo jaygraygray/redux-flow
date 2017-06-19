@@ -206,21 +206,96 @@ p {
     background: rgb(255, 255, 255);
 }
 
-.action {
+
+
+.action-container {
+  position: relative;
+  margin-left: 150px;
+}
+
+.action-one {
     font-size: 10px;
     color: rgb(33, 89, 144);
     width: 120px;
     display: flex;
     justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(34, 189, 48);
+    background: rgb(165, 228, 171);
+    border-radius: 50%;
     position: absolute;
-    top: 223px;
-    right: 390px;
+ top: -170px;
+    left: 457px;
+
+}
+
+.action-two {
+    font-size: 10px;
+    color: rgb(33, 89, 144);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(148, 114, 142);
+    background: rgb(255, 213, 248);
+    border-radius: 50%;
+    position: absolute;
+    top: -180px;
+    left: 432px;
+}
+
+
+.action-three {
+    font-size: 10px;
+    color: rgb(33, 89, 144);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 129, 66);
+    border-image: initial;
+    background: rgb(255, 189, 156);
+    border-radius: 50%;
+    position: absolute;
+    top: -167px;
+    left: 411px;
+}
+
+.action-four {
+    font-size: 10px;
+    color: rgb(33, 89, 144);
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    border-width: 4px;
+    border-style: solid;
+    border-color: rgb(255, 240, 47);
+    border-image: initial;
+    background: rgb(255, 252, 213);
+    border-radius: 50%;
+    position: absolute;
+    top: -152px;
+    left: 439px;
+}
+
+.action-five {
+    font-size: 10px;
+    color: rgb(33, 89, 144);
+    width: 120px;
+    display: flex;
+    justify-content: center;
     border-width: 4px;
     border-style: solid;
     border-color: rgb(33, 89, 144);
     border-image: initial;
     background: rgb(213, 216, 255);
     border-radius: 50%;
+    position: absolute;
+    top: -160px;
+    left: 429px;
 }
 
 .state {
@@ -259,3 +334,4 @@ p {
     margin: -13px;
     padding: 0;
 }
+
