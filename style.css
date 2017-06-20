@@ -14,14 +14,34 @@ p {
   margin-bottom: 34px;
 }
 
+.title-container {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
 .title {
     width: 50%;
     text-align: center;
-    margin: auto;
-   border-width: 0 0 21px 0;
+    border-top-color: #ffffff;
+    border-width: 7px 0 21px 0;
     border-style: solid;
-    border-color: #e4e4e4;
+    border-bottom-color: #e4e4e4;
+    transition: all .2s;
+    z-index: 1;
+    margin: auto;
+
 }
+
+.title:hover {
+  border-top-color: #fff;
+  border-bottom-color: #afafaf;
+  border-width: 7px 0 28px 0;
+  transition: all .2s;
+  width: 47%;
+}
+
+
 
 .title h1 {
     font-size: 44px;
@@ -32,7 +52,7 @@ p {
     width: 920px;
     height: 600px;
     position: relative;
-    margin: 54px auto auto;
+    margin: 183px auto auto;
 }
 
 .text {
@@ -44,6 +64,9 @@ p {
     height: 500px;
 }
 
+.content {
+  margin-top: 95px;
+}
 
 .user {
     text-align: center;
@@ -77,8 +100,8 @@ p {
 
 .store h1 {
     position: absolute;
-    top: 133px;
-    left: 200px;
+    top: -70px;
+    left: 221px;
 }
 
 .effect6 {
